@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
     puts "==========="
-    puts "TESTE"
+    puts "funfas?"
     puts "==========="
   end
 end
