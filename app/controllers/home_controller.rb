@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class HomeController < ApplicationController
   def index
-    puts "==========="
-    puts "funfas?"
-    puts "==========="
+    Rails.logger.debug "==========="
+    Rails.logger.debug "funfas?"
+    Rails.logger.debug "==========="
   end
 end
